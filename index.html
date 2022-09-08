@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU HEADER -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">NZ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#aboutme" onclick="seleccionar()">About Me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECTION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="container-img">
+                <div class="info-content"></div>
+                <img src="img/foto-niumar.jfif" alt="">
+            </div>
+            <h1>Niumar Zerpa</h1>
+            <h2>Programmer Fullstack</h2>
+            <h3><span>3 años</span> de experiencia</h3>
+            <div class="redes">
+                <a href="#"> <i class="fa-brands fa-google"></i></a>
+                <a href="#"> <i class="fa-brands fa-amazon"></i></a>
+                <a href="#"> <i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ABOUT ME--> 
+    <section id="aboutme" class="aboutme">
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p><span>Hi, I am Niumar Zerpa.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere suscipit pariatur quaerat illum perspiciatis illo laboriosam non, veritatis alias fugit sapiente cum consectetur atque. Possimus laborum culpa vero commodi debitis.</p>
+
+            <div class="row">
+    
+                <!--Personal data-->
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday:</strong>
+                            19-06-1986
+                        </li>
+                        <li>
+                            <strong>Phone Number:</strong>
+                            970 581 250
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            niumarzerpa@86hotmail.com
+                        </li>
+                        <li>
+                            <strong>Website:</strong>
+                            niumarzerpa@example.com
+                        </li>
+                        <li>
+                            <strong>Address:</strong>
+                            Perú/Ica.
+                        </li>
+                        <li>
+                            <strong>Position:</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--interests -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="container-interests">
+                        <div class="interests">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORT</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+
+                        <div class="interests">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+
+                        <div class="interests">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section> 
+
+    <!--SKILLS-->
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <!--Technical Skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Completed<span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%<span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%<span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsible</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%<span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%<span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Punctual</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%<span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creative</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%<span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--SECTION PORTFOLIO-->
+<section id="portfolio" class="portfolio">
+<div class="content-section">
+    <h2>PORTFOLIO</h2>
+    <div class="galeria">
+        <div class="proyecto">
+            <img src="img/p1.jpg" alt="">
+            <div class="overlay">
+                <h3>Diseño Creativo</h3>
+                <p>Fotografia</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/11.png" alt="">
+            <div class="overlay">
+                <h3>Diseño Creativo</h3>
+                <p>Fotografia</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/p3.jpg" alt="">
+            <div class="overlay">
+                <h3>Diseño Creativo</h3>
+                <p>Fotografia</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/2.png" alt="">
+            <div class="overlay">
+                <h3>Diseño Creativo</h3>
+                <p>Fotografia</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/p5.jpg" alt="">
+            <div class="overlay">
+                <h3>Diseño Creativo</h3>
+                <p>Fotografia</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/2a (2).png" alt="">
+            <div class="overlay">
+                <h3>Diseño Creativo</h3>
+                <p>Fotografía</p>
+            </div>
+        </div>
+    </div>
+</div>  
+</section> 
+
+<!-- SECTION CONTACT-->
+<section id="contact" class="contact">
+    <div class="content-section">
+        <h2>CONTACT</h2>
+        <div class="row">
+            <!--Formulary-->
+            <div class="col">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your phone number">
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Theme">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mesagge"></textarea>
+                <button>
+                    Send Message<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!-- Map -->
+            <div class="col">
+                <img src="img/ubicacion.png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Perú, Ica.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            Call Me: +51970581250
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: Niumarzerpa86@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER-->
+    <footer>
+    <a href="#inicio" class="up">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+        <a href="#"> <i class="fa-brands fa-skype"></i></a>
+        <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"> <i class="fa-solid fa-rss"></i></a>
+    </footer>
+
+<script src="scripts.js"></script>
+
+</body>
+
+</html>
